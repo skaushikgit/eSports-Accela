@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">eSportsman</string>
+
+    <string name="dec_id_num">DEC ID Number</string>
+    <string name="or">or</string>
+    <string name="or_sign_in">or sign in</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="drive_num">Drivers License Number</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="repeate_password">Repeat password</string>
+    <string name="signin">Sign In</string>
+    <string name="password_not_same">Please check that your passwords match and try again.</string>
+    <string name="email_not_valid">Please enter a valid email.</string>
+
+    <string name="login_progress_message">Logging in, please wait...</string>
+    <string name="login_cancel_message">Canceled.</string>
+    <string name="network_not_connected_message">"Can't connect to the Internet, please try again."</string>
+    <string name="network_not_opened_message">Network is disconnected. Please check your network settings and try again.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="processing_and_wait">Processing...Please wait.</string>
+    <string name="new_harvest_report">New Harvest Report</string>
+    <string name="reports">Report History</string>
+    <string name="license">Licenses</string>
+    <string name="RegulationTitle">Hunting Regulations</string>
+    <string name="RegulationUrl">http://www.dec.ny.gov/outdoor/28182.html</string>
+    <string name="ApplicationTitle">Hunting License Application</string>
+    <string name="ApplicationUrl">http://www.dec.ny.gov/permits/6094.html</string>
+    <string name="FAQTitle">Frequently Asked Questions</string>
+    <string name="FAQUrl">http://www.dec.ny.gov/outdoor/8310.html</string>
+    <string name="HelpTitle">Game Harvest Information</string>
+    <string name="ContactECO">Contact ECO</string>
+    <string name="HelpUrl">http://www.dec.ny.gov/outdoor/8316.html</string>
+    <string name="logout">Log Out</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="logout_confirm_message">Are you sure you want to logout?</string>
+    <string name="select_a_tag">- SELECT A CARCASS TAG -</string>
+    <string name="select_county">Select a County</string>
+    <string name="select_town">Select a Town</string>
+    <string name="select_wmu">Select a WMU</string>
+    <string name="county">County</string>
+    <string name="town">Town</string>
+    <string name="wmu">WMU</string>
+    <string name="select">Select...</string>
+    <string name="select_tag_info">
+        <![CDATA[
+        All successful hunters are required by law to report their take on deer, bear, and turkey <font color=#FFFF00>within 7 days</font>
+         of kill.
+        ]]>
+    </string>
+    <string name="tag_info_details">
+        <![CDATA[
+        You must report <b>within 7 days</b>. Report your deer, turkey or bear using one of the following:
+        <p> \u2022 DEC Harvest Report iOS/Android App </p>
+        <p> \u2022 Call Toll-Free <b>1.866.426.3778</b> </p>
+        <p> \u2022 Visit <a href="http://www.dec.ny.gov/harvest_report">dec.ny.gov/harvest_report</a> </p>
+        <p> <b>Waterfowl & Woodcock Hunters</b>
+        <br> You MUST register for the Harvest Information Program (HIP).</p>
+        <p> \u2022 Call Toll-Free <b>1.888.427.5447</b> </p>
+        ]]>
+    </string>
+    <string name="harvest_location">- HARVEST LOCATION -</string>
+    <string name="harvest_season_method">- HARVEST SEASON &amp; METHOD -</string>
+    <string name="harvest_species">- HARVEST SPECIES -</string>
+    <string name="confirm_harvest_report">- CONFIRM HARVEST REPORT -</string>
+    <string name="sex">Sex</string>
+    <string name="age">Age</string>
+    <string name="other_info">Other info</string>
+    <string name="other_info_details">DEC would like to collect a tooth from your bear to determine its age.
+        You may skin and field dress the bear, but please save the skull.
+        DEC may contact you or you may receive a postage paid envelope with instructions for removing and submitting a premolar tooth or a portion of the bear\'s low jaw.
+    If you take the bear to a taxidermist, they may collect and submit the correct tooth for you if asked.
+    Please provide the following additional information for DEC to contact you if needed.</string>
+    <string name="examination_county">Examination County</string>
+    <string name="address">Address</string>
+    <string name="contact_phone">Contact Phone</string>
+    <string name="left_antler_points">Left Antler Points</string>
+    <string name="right_antler_points">Right Antler Points</string>
+    <string name="weight">Weight(lbs)</string>
+    <string name="leg_saved">Leg Saved?</string>
+    <string name="beard_length">Beard Length</string>
+    <string name="spur_length">Spur Length</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="method_used">Method Used</string>
+    <string name="season">Season</string>
+    <string name="unknown">Unknown</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="submit_date">Submit Date</string>
+    <string name="submiting_report">Submiting report...</string>
+    <string name="submit_report_failed">Failed to submit report, please try again.</string>
+    <string name="submit_report_successful">Submit report successfully.</string>
+    <string name="harvest_report_submitted">- HARVEST REPORT SUBMITTED -</string>
+    <string name="bear_report">Bear Report</string>
+    <string name="deer_report">Deer Report</string>
+    <string name="turkey_report">Turkey Report</string>
+    <string name="submitted">Submitted</string>
+    <string name="dec_id">DEC ID</string>
+    <string name="doc_id">Doc #</string>
+    <string name="conf_id">Conf #</string>
+
+    <string name="settings">Settings</string>
+
+    <!-- month -->
+    <string name="Jan">January</string>
+    <string name="Feb">February</string>
+    <string name="Mar">March</string>
+    <string name="Apr">April</string>
+    <string name="May">May</string>
+    <string name="Jun">June</string>
+    <string name="Jul">July</string>
+    <string name="Aug">August</string>
+    <string name="Sep">September</string>
+    <string name="Oct">October</string>
+    <string name="Nov">November</string>
+    <string name="Dec">December</string>
+
+    <!-- Register -->
+    <string name="find_my_info">Find My Info</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="driver_license_number_error">Please input valid DMV/DEC ID.</string>
+    <string name="email_address">Email Address</string>
+    <string name="next">Next</string>
+    <string name="choose_security_question">Choose a security question</string>
+    <string name="answer">Answer</string>
+    <string name="register">Register</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="network_issue">Network issue, please try again.</string>
+    <string name="user_not_found">User Not Found</string>
+    <string name="ensure_dec_license_holder">Please ensure you are a DEC license holder.</string>
+    <string name="ensure_drive_license_holder">Please ensure you are a driver license holder.</string>
+    <string name="input_valid_dob">Please enter valid DOB</string>
+    <string name="new_account_create_successfully">New account create successfully</string>
+    <string name="new_account_create_failed">Can\'t create new account, please try again.</string>
+    <string name="login_failed">Login failed, invalid username or password!</string>
+    <string name="logging_in">Logging in...</string>
+
+    <string name="title_activity_harvest_form_container">HarvestFormContainerActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+        <item>TAB 4</item>
+    </string-array>
+    <string name="title_activity_location_list">LocationListActivity</string>
+    <string name="title_activity_location_list_view">LocationListView</string>
+    <string name="title_activity_harvest_report_form">HarvestReportFormActivity</string>
+
+    <!--Report submit Dialog -->
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="report_submit_agreement">I hereby affirm under penalty of perjury that the information contained in this application is true to the best of my knowledge and belief. False statements are punishable as a Class A misdemeanor pursuant to Section 210.45 of the Penal Law.</string>
+    <string name="title_activity_license_list">LicenseListActivity</string>
+    <string name="title_activity_license_detail">LicenseDetailActivity</string>
+
+    <!--Feedback email-->
+    <string name="support_email_to">contact@dec.ny.gov</string>
+    <string name="support_email_subject">eSportsman</string>
+    <string name="support_email_body">Please include your customer id in message.</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_report_form_list">ReportFormListActivity</string>
+    <string name="title_activity_report_detail">ReportDetailActivity</string>
+
+    <string name="loading">loading..</string>
+
+    <!--Facebook integration-->
+    <string name="facebook_app_id">494563734054382</string>
+    <string name="title_activity_facebook_integration">FacebookIntegration</string>
+    <string name="offline_warning_msg">You are offline and only have access to Licenses, please try to relogin!</string>
+    <string name="change_environment_warning">Please logout and relogin to apply the change!</string>
+    <string name="no_reports">Sorry, you have no reports to view!</string>
+    <string name="no_license">Sorry, you have no licenses to view!</string>
+    <string name="no_location">Sorry, no harvest location available!</string>
+    <string name="user_already_taken">Registration error - the username or email address provided is already in use. Please correct the issue and resubmit or return to the home screen to reset your existing password.</string>
+    <string name="menu_environment">Environment</string>
+    <string name="select_image">Select Image</string>
+
+    <string-array name="environment">
+        <item>PROD</item>
+        <item>DEV</item>
+        <item>TEST</item>
+        <item>STAGE</item>
+        <item>CONFIG</item>
+        <item>SUPP</item>
+    </string-array>
+    <string name="title_activity_overlay_tutorial">OverlayTutorial</string>
+    <string name="address_hint">123 Main Street, City, NY, 00000</string>
+    <string name="contact_hint">000-000-0000</string>
+</resources>

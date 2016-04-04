@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="edit_text_height">60dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+
+    <dimen name="edit_text_padding">5dp</dimen>
+
+    <dimen name="h6">14sp</dimen>
+    <dimen name="h5">16sp</dimen>
+    <dimen name="h4">18sp</dimen>
+    <dimen name="h3">20sp</dimen>
+    <dimen name="h2">22sp</dimen>
+    <dimen name="h1">24sp</dimen>
+    <dimen name="h0">26sp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+
+
+</resources>

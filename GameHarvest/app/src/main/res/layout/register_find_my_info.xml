@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/card_white"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editDriverLicense"
+            style="@style/EditTextStyle.Register"
+            android:hint="@string/drive_num"/>
+        <EditText
+            android:id="@+id/editDateBirth"
+            style="@style/EditTextStyle.Register"
+            android:inputType="none"
+            android:hint="@string/date_of_birth"/>
+        <Button
+            style="@style/ButtonStyle.Home_Blue"
+            android:text="@string/find_my_info"
+            android:id="@+id/buttonFindMyInfo"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

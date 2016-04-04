@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/calendar_back"
+    >
+    <com.accela.esportsman.view.FontTextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:fontFace="Oswald-Regular.ttf"
+        style="@style/FontStyle.ActionbarTitleLarge"
+        android:textColor="@color/black"
+        android:text="August 2015"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:id="@+id/weekHeaderContainer"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</LinearLayout>

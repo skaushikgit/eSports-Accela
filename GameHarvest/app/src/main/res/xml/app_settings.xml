@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Environment Settings">
+        <ListPreference
+            android:key="pref_environment"
+            android:title="Environment"
+            android:summary="Please select your environment, only agency or testers for test purpose!"
+            android:dialogTitle="Select the Environment"
+            android:entries="@array/environment"
+            android:entryValues="@array/environment"
+            android:defaultValue="CONFIG" />
+    </PreferenceCategory>
+</PreferenceScreen>

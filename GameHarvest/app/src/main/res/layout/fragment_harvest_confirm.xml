@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.accela.esportsman.fragment.HarvestConfirmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/card_yellow"
+        android:orientation="vertical">
+
+        <com.accela.esportsman.view.ElasticScrollView
+            android:id="@+id/scrollViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/grey_border"
+                    android:orientation="vertical">
+
+                   <include layout="@layout/animal_profile"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey" />
+
+                    <com.accela.esportsman.fragment.FormEntityCollectionView
+                        android:id="@+id/entityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:entityKeyArray="@array/season_array_bear"
+                        app:entityValueArray="@array/season_array_bear" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.accela.esportsman.view.ElasticScrollView>
+
+        <Button
+            android:id="@+id/submitReportButton"
+            style="@style/ButtonStyle.Submit_Report"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/submit_report"
+            android:background="@drawable/submit_report_button"/>
+
+    </LinearLayout>
+
+</FrameLayout>

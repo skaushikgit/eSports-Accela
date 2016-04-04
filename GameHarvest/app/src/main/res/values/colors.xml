@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00ff00</color>
+    <color name="primaryDark">#000000</color>
+    <color name="accent">#ff00ff</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#DFE7ED</color>
+
+    <color name="grey">#A0A2A3</color>
+    <color name="semi_transparent">#55000000</color>
+
+    <color name="button_pressed">#276CA8</color>
+    <color name="gray">#FF4D4E4F</color>
+    <color name="light_gray">#FFD3D3D3</color>
+    <color name="mid_gray">#FF656565</color>
+    <color name="action_bar_dark_green">#2d5234</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="dark_gray">#1a1a1a</color>
+
+    <color name="calendar_back">#F8F3E7</color>
+
+    <!--Background Colors-->
+    <color name="background_green">#2d5235</color>
+    <color name="background_black">#262836</color>
+    <color name="background_offWhite">#faf6ee</color>
+    <color name="background_white">#ffffff</color>
+    <color name="background_yellow">#f5eb26</color>
+
+    <!--Button Colors-->
+    <color name="button_blue">#0094ff</color>
+    <color name="button_light_gray">#c9c9c9</color>
+    <color name="button_light_green">#939230</color>
+
+    <!--Text Colors-->
+    <color name="text_black">#262836</color>
+    <color name="text_dark_gray">#999999</color>
+    <color name="text_green">#3eae49</color>
+    <color name="text_red">#d24c27</color>
+</resources>

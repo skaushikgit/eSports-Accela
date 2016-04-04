@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <ImageButton
+        android:id="@+id/tabLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:src="@drawable/tab_location"/>
+
+    <ImageButton
+        android:id="@+id/tabCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:src="@drawable/tab_calendar" />
+
+    <ImageButton
+        android:id="@+id/tabMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:src="@drawable/tab_method" />
+
+    <ImageButton
+        android:id="@+id/tabTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:src="@drawable/tab_tag" />
+</LinearLayout>

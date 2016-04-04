@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.accela.esportsman.fragment.HarvestConfirmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/card_white"
+        android:orientation="vertical">
+
+        <com.accela.esportsman.view.ElasticScrollView
+            android:id="@+id/scrollViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/grey_border"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageTag"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="16dp"
+                            android:src="@mipmap/icon_deer_tag" />
+
+                        <com.accela.esportsman.view.FontTextView
+                            android:id="@+id/textTagName"
+                            style="@style/FontStyle.H3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="1"
+                            android:text="@string/app_name"
+                            android:textColor="@color/black"
+                            app:fontFace="Monotype - New Clarendon MT Bold.ttf" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey" />
+
+                    <com.accela.esportsman.fragment.FormEntityCollectionView
+                        android:id="@+id/entityContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:entityKeyArray="@array/license_detail_array"
+                        app:entityValueArray="@array/license_detail_array"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </com.accela.esportsman.view.ElasticScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

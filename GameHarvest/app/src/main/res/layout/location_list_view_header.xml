@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/location_list_header">
+
+    <com.accela.esportsman.view.FontTextView
+        android:id="@+id/tvHeaderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_county"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="16dp"/>
+
+</LinearLayout>

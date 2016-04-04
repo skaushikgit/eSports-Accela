@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/prodId"
+                android:title="PROD" />
+            <item android:id="@+id/devId"
+                android:title="DEV" />
+            <item android:id="@+id/testId"
+                android:title="TEST" />
+            <item android:id="@+id/stageId"
+                android:title="STAGE" />
+            <item android:id="@+id/configId"
+                android:title="CONFIG" />
+            <item android:id="@+id/suppId"
+                android:title="SUPP" />
+        </group>
+</menu>

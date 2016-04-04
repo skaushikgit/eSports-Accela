@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_sex">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="array_age">
+        <item>Adult</item>
+        <item>Cub</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="array_beard_length">
+        <item>Under 3\"</item>
+        <item>Between 3\" and 7\"</item>
+        <item>7\" or longer</item>
+    </string-array>
+    <string-array name="array_spur_length">
+        <item>No Spur</item>
+        <item>Under 1/2\"</item>
+        <item>1/2\" or longer</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="array_yes_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="bowHunting_Method_Array">
+        <item>Crossbow</item>
+        <item>Bow</item>
+    </string-array>
+
+    <!--Deer kill method options-->
+    <string-array name="season_array_deer_turkey">
+        <item>Bowhunting</item>
+        <item>Regular</item>
+        <item>Muzzleloading</item>
+    </string-array>
+
+    <string-array name="bowHunting_method_array">
+        <item>Crossbow</item>
+        <item>Bow</item>
+    </string-array>
+
+    <string-array name="regular_method_array">
+        <item>Muzzleloader</item>
+        <item>Bow</item>
+        <item>Crossbow</item>
+        <item>Rifle or Shotgun</item>
+        <item>Handgun</item>
+    </string-array>
+
+    <string-array name="muzzleloader_method_array">
+        <item>Muzzleloader</item>
+        <item>Crossbow</item>
+    </string-array>
+
+    <!--Bear kill method options-->
+    <string-array name="season_array_bear">
+        <item>Bowhunting</item>
+        <item>Regular</item>
+        <item>Muzzleloading</item>
+        <item>Early</item>
+    </string-array>
+
+    <!--Confirm Harvest Report Array Deer-->
+    <string-array name="confirm_harvest_report_array_deer">
+        <item>County</item>
+        <item>Town</item>
+        <item>WMU</item>
+        <item>Harvest Date</item>
+        <item>Season</item>
+        <item>Method</item>
+        <item>Sex</item>
+        <item>Left Antler Points</item>
+        <item>Right Antler Points</item>
+    </string-array>
+
+    <!--Confirm Harvest Report Array Turkey-->
+    <string-array name="confirm_harvest_report_array_turkey">
+        <item>County</item>
+        <item>Town</item>
+        <item>WMU</item>
+        <item>Harvest Date</item>
+        <item>Weight(lbs)</item>
+        <item>Beard Length</item>
+        <item>Spur Length</item>
+    </string-array>
+
+    <string-array name="confirm_harvest_report_array_fall_turkey">
+        <item>County</item>
+        <item>Town</item>
+        <item>WMU</item>
+        <item>Harvest Date</item>
+        <item>Weight(lbs)</item>
+        <item>Leg Saved</item>
+        <item>Beard Length</item>
+        <item>Spur Length</item>
+    </string-array>
+
+    <!--Confirm Harvest Report Array Bear-->
+    <string-array name="confirm_harvest_report_array_bear">
+        <item>County</item>
+        <item>Town</item>
+        <item>WMU</item>
+        <item>Harvest Date</item>
+        <item>Season</item>
+        <item>Method</item>
+        <item>Sex</item>
+        <item>Age</item>
+        <item>Examination County</item>
+        <item>Address</item>
+        <item>Contact Phone</item>
+    </string-array>
+
+    <!--Security question-->
+    <string-array name="security_questions">
+        <item>Choose a security question</item>
+        <item>What is the brand of your first car?</item>
+        <item>What is the name of your elementary school?</item>
+        <item>What is your favorite sports team?</item>
+        <item>What is the name of your first pet?</item>
+        <item>Where is your birth place?</item>
+    </string-array>
+
+    <!--License Key Array-->
+    <string-array name="license_key_array">
+        <item>DEC ID</item>
+        <item>License Type</item>
+
+    </string-array>
+
+    <!--License Detail Array-->
+    <string-array name="license_detail_array">
+        <item>DEC ID</item>
+        <item>License Type</item>
+        <item>Privileges</item>
+        <item>Name</item>
+        <item>Address</item>
+        <item>DOB</item>
+        <item>Sex</item>
+        <item>Eyes</item>
+        <item>Height</item>
+        <item>Date Issued</item>
+        <item>Time Issued</item>
+        <item>Dates Valid</item>
+    </string-array>
+
+
+    <!--Bear: 9/1 - 5/31-->
+    <!--Deer: 9/1 - 5/31-->
+    <!--Fall Turkey: 9/1 - 12/30-->
+    <!--Spring Turkey: 4/1 - 7/30-->
+    <string-array name="valid_dates_tag">
+        <item>9/1</item>
+        <item>5/31</item>
+        <item>9/1</item>
+        <item>5/31</item>
+        <item>9/1</item>
+        <item>12/30</item>
+        <item>4/1</item>
+        <item>7/30</item>
+    </string-array>
+</resources>

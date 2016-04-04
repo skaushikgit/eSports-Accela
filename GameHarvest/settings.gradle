@@ -1,0 +1,13 @@
+include ':app'
+include ':library_sdk'
+project(':library_sdk').projectDir = new File(settingsDir, '../../Android-SDK/sdk/library_sdk')
+include ':coreLib_Offline'
+project(':coreLib_Offline').projectDir = new File(settingsDir, '../../Android-CoreLib/coreLib_Offline')
+include ':coreLib_Core'
+project(':coreLib_Core').projectDir = new File(settingsDir, '../../Android-CoreLib/coreLib_Core')
+include ':coreLib_Record'
+project(':coreLib_Record').projectDir = new File(settingsDir, '../../Android-CoreLib/coreLib_Record')
+include ':coreLib_Models_Actions'
+project(':coreLib_Models_Actions').projectDir = new File(settingsDir, '../../Android-CoreLib/coreLib_Models_Actions')
+include ':coreLib_Document'
+project(':coreLib_Document').projectDir = new File(settingsDir, '../../Android-CoreLib/coreLib_Document')

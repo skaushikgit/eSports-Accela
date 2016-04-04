@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/card_white"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:id="@+id/spinner"
+            android:hint="@string/choose_security_question"
+            android:layout_gravity="center_horizontal" />
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
+            >
+
+        </View>
+        <EditText
+            android:id="@+id/editAnswer"
+            style="@style/EditTextStyle.Register"
+            android:hint="@string/answer"/>
+
+
+
+        <Button
+            style="@style/ButtonStyle.Home_Blue"
+            android:text="@string/register"
+            android:id="@+id/buttonRegister"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>
